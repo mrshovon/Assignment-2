@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+  <form class="container w-25 fcustom" action="contact-us.php" method="post">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Subject</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject" name="subject">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary fcustom" value="submit">Submit</button>
+    <button type="submit" class="btn btn-secondary fcustom" value="" formaction="login.html" >Back</button>
+  </form>
+      
+</body>
+</html>
