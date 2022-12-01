@@ -1,6 +1,27 @@
+body{
+    background-image: url("images/lgn-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .fcustom{
     margin-top: 50px;
 }
 .msg{
     align-items: center;
+}
+.fcustom2{
+    display: inline-block;
+}
+.txtclr{
+    color: azure;
+}
+@media (max-width: 576px) { 
+    body{
+        background-size: cover;
+        position: relative;
+    }
+    .bck{
+        margin-top: 5px;
+        
+    }
 }

@@ -1,6 +1,5 @@
 <?php
 session_start();
-// $_SESSION['username'] = $_POST["uName"];
 include 'connectDB.php';
 include 'functions.php';
 include 'client_login.php';
